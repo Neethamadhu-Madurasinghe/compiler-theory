@@ -15,8 +15,8 @@ return TOK_INT; }
 yylval.int_val = 1;
 return TOK_FLOAT; }
 {id} { sscanf(yytext, "%s", &(yylval.name)); return(TOK_ID); }
-"int" { yylval.int_val = 0; return(TOK_TYPE);}
-"float" { yylval.int_val = 1; return(TOK_TYPE); }
+"int" { yylval.type = 0; return(TOK_TYPE);}
+"float" { yylval.type = 1; return(TOK_TYPE); }
 "main" { return(TOK_MAIN); }
 ";" { return(TOK_SEMICOLON); }
 "+" { return(TOK_ADD); }
