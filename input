@@ -1,6 +1,6 @@
 main() {
-    int x;
-    x = 3;
-    x = x + 4;
-    printvar x;
+int a;
+a = 10;
+printvar a;
+
 }
