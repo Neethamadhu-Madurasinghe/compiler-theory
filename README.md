@@ -24,7 +24,3 @@ Special notes:
 - The assignment was done on a Live Share enviornment, with real-time collaboration on all sections of the code by the two members
 - The given test cases were tested with proper line breaks between statements
 - On MacOS, we encountered an error (ld: library not found for -lfl), therefore -ll was used instead of -lfl when running gcc (in Makefile)
-
-=== UPDATE ===
-Task done at viva: Modifying the code to support postfix expressions, instead of infix expressions 
-Modified the lines 178 - 182 in calc.y file
